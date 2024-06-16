@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula E</title>
+    <link rel="stylesheet" href="css\estilo.css">
+</head>
+<body>
+    <nav>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="#formula-e">Formula E</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div class="nav-right">
+            <a href="#login">Login</a>
+            <a href="#create-account">Criar Conta</a>
+        </div>
+    </nav>
+
+    <!--Criação do carrossel-->
+
+<h2 id="sobre" class="para_baixo"> Novidades </h2>
+
+<div class="carrossel">
+    <div class="organizador-carrossel">
+        <div class="imagem-carrossel active">
+            <img src="imagens\carrossel1.png" alt="carrossel 1" placeholder="imagem1">
+        </div>
+        <div class="imagem-carrossel">
+            <img src="imagens\carrossel2.jpg" alt="carrossel 2" placeholder="imagem2">
+        </div>
+    </div>
+    <a class="imagem-anterior" onclick="anterior()">&#10094;</a>
+    <a class="imagem-proxima" onclick="proxima()">&#10095;</a>
+</div>
+
+<div id="container1">
+    <img src="imagens\plastico_oceano.png" alt="cont-img" class="cont-img" placeholder="Pilha de lixo no oceano">
+    <p class="txt">
+        <span>Iniciamos essa grande missão ao perceber a verdadeira importância do oceano e o impacto profundo que ele tem em nossas vidas. </span>
+        <span> Se você ainda não compreendeu totalmente essa realidade, junte-se a nós nesta jornada e permita-nos abrir seus olhos para essa causa vital!</span>
+    </p>
+</div>
+
+<h2 id="serviços">Agora conheça nossos serviços</h2>
+
+<div id="container2">
+    <p class="txt2">
+       <span> OceanGuard é uma inovadora solução para monitorar e preservar a saúde dos oceanos. Utiliza coleta, processamento e visualização de dados ambientais em tempo real.</span>
+        <span>
+            A solução inicia com um dispositivo Arduino equipado com sensores de temperatura, pH e turbidez, capturando informações precisas sobre a qualidade da água e outras variáveis ambientais.</span>
+    </p>
+    <img src="imagens\plastico_oceano.png" alt="cont-img" class="cont-img2" placeholder="Prototipo do mecanismo">
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="social-media">
+            <a href="#"><img src="imagens/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="imagens/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="imagens/instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-links">
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <a href="#privacidade">Política de Privacidade</a>
+        </div>
+        <p>&copy; 2024 Formula E. Todos os direitos reservados.</p>
+    </div>
+</footer>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
