@@ -208,6 +208,7 @@ z-index: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid var(--bg-color5);
     margin-bottom: 30px;
+    margin: auto;
 }
 
 .txt2 {
@@ -221,6 +222,7 @@ z-index: 1;
     display: block;
     margin-bottom: 10px;
     margin: auto;
+    padding-bottom: 10px;
 }   
 
 .para_baixo {
@@ -243,7 +245,8 @@ footer {
     padding: 20px 10px;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
+    margin-top: 30px;
 }
     
 .footer-content {
@@ -300,6 +303,7 @@ footer .footer-content {
     .txt, .txt2 {
         max-width: 100%;
         text-align: center;
+        padding-bottom: 5px;
     }
 
 }
@@ -314,4 +318,48 @@ footer .links-sociais a {
     margin: 5px 0;
     padding: 10px 0;
     gap: 50 px;
+}
+
+/*formatando a página criar_conta.html*/
+
+.form-container {
+    background-color: var(--bg-color2);
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    max-height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--bg-color5);
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--bg-color3);
+    border: none;
+    color: var(--bg-color);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+button:hover {
+    background-color: var(--bg-color1);
 }

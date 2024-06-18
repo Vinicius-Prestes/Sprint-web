@@ -26,3 +26,13 @@ function anterior() {
     mostraimagem(--imagemIndex);
 }
 
+// configurando a página criar_conta.html
+
+document.getElementById('cadastroForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    
+    const email = document.getElementById('email').value;
+    
+    alert('Email cadastrado com sucesso: ' + email);
+    window.location.href = 'mahindra.html';
+});
