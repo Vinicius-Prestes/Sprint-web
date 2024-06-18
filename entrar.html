@@ -20,13 +20,28 @@
             <a href="#contato">Contato</a>
         </div>
         <div class="nav-right">
-            <a href="#entrar.html">Entrar</a>
+            <a href="criar_conta.html">Criar Conta</a>
         </div>
     </nav>
 
+<div class="form-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+            
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+            
+        <div class="checkbox-container">
+            <input type="checkbox" id="permanecerConectado" name="permanecerConectado">
+            <label for="permanecerConectado">Permanecer Conectado</label>
+        </div>
+            
+        <button type="submit">Login</button>
+    </form>
 
-
-    <footer>
+<footer>
         <div class="footer-content">
             <div class="links-sociais" id="contatos">
                 <a href="#"><img src="imagens/facebook.png" alt="Facebook"></a>
@@ -39,7 +54,7 @@
             </div>
             <p>&copy; 2024 Formula E. Todos os direitos reservados.</p>
         </div>
-    </footer>
+</footer>
     
         <script src="js\script.js"></script>
     </body>
