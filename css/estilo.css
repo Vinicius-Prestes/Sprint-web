@@ -318,7 +318,7 @@ footer .footer-content {
 footer .links-sociais a {
     margin: 5px 0;
     padding: 10px 0;
-    gap: 50 px;
+
 }
 
 /*formatando a página criar_conta.html*/
@@ -331,8 +331,8 @@ footer .links-sociais a {
     max-width: 400px;
     width: 100%;
     margin: auto;
-    max-height: auto;
 }
+
 
 form {
     display: flex;
@@ -367,15 +367,21 @@ button:hover {
 
 /*configurando página de entrar.html*/
 
-.form-container1 {
-    background-color: white;
-    padding: 20px;
+.entrar-container {
+    background-color: var(--bg-color2);
+    padding: 0px 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
+    margin: auto;
 }
 
+.entrar-form{
+    max-width: 400px;
+    max-height: auto;
+    width: 100%;
+}
 
 .checkbox-container {
     display: flex;

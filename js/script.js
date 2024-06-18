@@ -1,3 +1,4 @@
+// criação do menu hamburguer
 function toggleMenu() {
     var menu = document.getElementById("menu");
     menu.classList.toggle("show");
@@ -54,5 +55,5 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 
     alert('Login realizado com sucesso');
-    window.location.href = 'index.html';
+    window.location.href = 'mahindra.html';
 });
